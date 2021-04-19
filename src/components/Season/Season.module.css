@@ -1,0 +1,38 @@
+.Season {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+
+    max-width: 800px;
+    /*margin-top: 10px;*/
+    margin-left: 20px;
+}
+
+.Season .title {
+    font-family: 'New Tegomin', serif;
+    border: 1px solid #bebebe;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.Season ul {
+    list-style: none;
+    margin: 0 0 0 3rem;
+    padding: 0;
+}
+
+.Season ul li a {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    padding: 0 20px 10px 20px;
+    transition: opacity .3s;
+}
+
+.Season ul li a:hover, .active {
+    opacity: .6;
+}
+.list {
+    padding-left: 20px;
+}

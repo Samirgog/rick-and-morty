@@ -1,0 +1,20 @@
+.Episode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.Episode.EpisodeWrapper {
+    width: 800px;
+}
+
+.link {
+    color: #fff;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}

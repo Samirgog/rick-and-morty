@@ -1,0 +1,67 @@
+.Locations {
+    padding-top: 85px;
+    flex-grow: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 517px){
+    .Locations {
+        padding-top: 150px;
+    }
+}
+
+.Locations a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Locations .buttons {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    color: #000;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .3);
+}
+
+.btn:disabled {
+    background: #ccc;
+    color: #000;
+    cursor: not-allowed;
+}
+
+.primary {
+    background: #2fb199;
+    color: #fff;
+}
+
+.primary:hover {
+    border-color: #749f10;
+}

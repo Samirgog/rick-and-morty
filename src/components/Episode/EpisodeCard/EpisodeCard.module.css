@@ -1,0 +1,9 @@
+.EpisodeCard {
+    font-family: 'New Tegomin', serif;
+    width: 800px;
+    border: 1px solid #bebebe;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+    opacity: 1;
+}

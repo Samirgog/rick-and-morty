@@ -1,0 +1,25 @@
+.Location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.LocationWrapper {
+    width: 800px;
+}
+
+.Location .link {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.Location .link:hover {
+    cursor: pointer;
+}

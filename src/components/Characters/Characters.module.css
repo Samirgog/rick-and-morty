@@ -1,0 +1,13 @@
+.Characters {
+
+}
+
+.Characters .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Characters .card {
+    margin-bottom: 20px;
+}
