@@ -13,7 +13,7 @@ export function Navbar() {
         <>
             <header className={classes.Navbar}>
                 <NavLink to="/" className={classes.logo}>
-                    <img src="../public/logo-rick-morty.jpg" alt=""/>
+                    <img src="../../../public/logo-rick-morty.jpg" alt=""/>
                 </NavLink>
                 <ul>
                     {
